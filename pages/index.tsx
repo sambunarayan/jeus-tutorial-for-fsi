@@ -1,10 +1,20 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import FSI from '@/public/fsi.png';
 
 export default function Home() {
   return (
     <>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto flex flex-wrap">
+        <div className="container px-5 py-10 mx-auto flex flex-wrap items-center justify-center">
+          <div>
+            <Image src={FSI}
+              width={90}
+              height={90}
+              alt="Jeus" />
+          </div>
+        </div>
+        <div className="container px-5 py-10 mx-auto flex flex-wrap">
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
               <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -27,7 +37,7 @@ export default function Home() {
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">JDK 11 install</h2>
                 <p className="leading-relaxed">Javaをインストールします</p>
                 <Link href="https://jeus-tutorial-for-fsi.notion.site/JDK11-Install-601a49b0810346dda6f9f4cecde04ec9" legacyBehavior>
-                  <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 text-blue-700">JDK install 手順</a>
+                  <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 text-blue-800">JDK install 手順</a>
                 </Link>
               </div>
             </div>
@@ -101,7 +111,7 @@ export default function Home() {
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Maven install</h2>
                 <p className="leading-relaxed">ビルドツールをインストールします</p>
                 <Link href="https://jeus-tutorial-for-fsi.notion.site/Maven-install-663d040e2397481bbe0cc760cc39884c" legacyBehavior>
-                  <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 text-blue-700">Maven install 手順</a>
+                  <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 text-blue-800">Maven install 手順</a>
                 </Link>
               </div>
             </div>
@@ -123,7 +133,7 @@ export default function Home() {
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Database install</h2>
                 <p className="leading-relaxed">Oracle databaseをインストールします</p>
                 <Link href="https://jeus-tutorial-for-fsi.notion.site/Oracle-install-21308de80568496f99f3d021f360c77f" legacyBehavior>
-                  <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 text-blue-700">Oracle database install 手順</a>
+                  <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 text-blue-800">Oracle database install 手順</a>
                 </Link>
               </div>
             </div>
@@ -143,7 +153,7 @@ export default function Home() {
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Netbeans install</h2>
                 <p className="leading-relaxed">開発用のIDEをインストールします。</p>
                 <Link href="https://jeus-tutorial-for-fsi.notion.site/Netbeans-install-6d77896349fe4392b5a4eb63b86465ae" legacyBehavior>
-                  <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 text-blue-700">Netbeans install 手順</a>
+                  <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 text-blue-800">Netbeans install 手順</a>
                 </Link>
               </div>
             </div>
@@ -164,7 +174,7 @@ export default function Home() {
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Payara install</h2>
                 <p className="leading-relaxed">オンライン系の開発のためにPayara web serverをインストールします。</p>
                 <Link href="https://jeus-tutorial-for-fsi.notion.site/Payara-install-9dfb7d553566425b9461ca62a79e5628" legacyBehavior>
-                  <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 text-blue-700">Payara install 手順</a>
+                  <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 text-blue-800">Payara install 手順</a>
                 </Link>
               </div>
             </div>
@@ -199,7 +209,7 @@ export default function Home() {
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Helidon install</h2>
                 <p className="leading-relaxed">Architecture 5.0 練習のためにHelidon frameworkをインストールします。</p>
                 <Link href="https://jeus-tutorial-for-fsi.notion.site/Helidon-install-011e3b2926ed4670a1c5eb81ff1310b7" legacyBehavior>
-                  <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 text-blue-700">Helidon install 手順</a>
+                  <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 text-blue-800">Helidon install 手順</a>
                 </Link>
               </div>
             </div>
