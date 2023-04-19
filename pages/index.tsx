@@ -1,19 +1,9 @@
 import Link from 'next/link';
-import Image from 'next/image';
-import FSI from '@/public/fsi.png';
 
 export default function Home() {
   return (
     <>
-      <section className="text-gray-600 body-font">
-        <div className="container px-5 py-10 mx-auto flex flex-wrap items-center justify-center">
-          <div>
-            <Image src={FSI}
-              width={90}
-              height={90}
-              alt="Jeus" />
-          </div>
-        </div>
+      <section className="text-gray-600 body-font mt-10">
         <div className="container px-5 py-10 mx-auto flex flex-wrap">
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
