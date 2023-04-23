@@ -10,8 +10,8 @@ export default function Tempate() {
                             </svg>
                         </div>
                         <div className="flex-grow">
-                            <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
-                            <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                            <h2 className="text-gray-900 text-lg title-font font-medium mb-3">シンプルなAPIプロジェクト作成</h2>
+                            <p className="leading-relaxed text-base">送ったデータそのまま返却するエコーサーバーを作成します。</p>
                             <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -28,8 +28,8 @@ export default function Tempate() {
                             </svg>
                         </div>
                         <div className="flex-grow">
-                            <h2 className="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
-                            <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                            <h2 className="text-gray-900 text-lg title-font font-medium mb-3">DB連動サーバー</h2>
+                            <p className="leading-relaxed text-base">GET・POST・PUTでDBデータを操作するAPIサーバーを作成します。</p>
                             <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -45,8 +45,8 @@ export default function Tempate() {
                             </svg>
                         </div>
                         <div className="flex-grow">
-                            <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
-                            <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                            <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Architecture 5.0サーバー体験</h2>
+                            <p className="leading-relaxed text-base">Helidonを使ってAPIサーバーを作成してみます。</p>
                             <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
