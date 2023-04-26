@@ -54,11 +54,13 @@ export default function Tempate() {
                         <div className="flex-grow">
                             <h2 className="text-gray-900 text-lg title-font font-medium mb-3">DB連動サーバー</h2>
                             <p className="leading-relaxed text-base">GET・POST・PUTでDBデータを操作するAPIサーバーを作成します。</p>
-                            <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
-                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </a>
+                            <Link href="https://jeus-tutorial-for-fsi.notion.site/DB-db7b94fd5a64464ea828f02b37c3381a" legacyBehavior>
+                                <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="flex flex-col mb-10 lg:items-start items-center">
